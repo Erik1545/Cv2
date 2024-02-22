@@ -1,13 +1,10 @@
 package com.example.demo.service;
 
-import java.util.HashMap;
-
 public class MyService implements MyServiceInterface {
-    private HashMap<Integer, Student> studentMap = new HashMap<>();;
-
-
-    public void addEmployee(Student employee) {
-        studentMap.put(employee.getId(), employee);
+    @Override
+    public void hi(String name) {
+        System.out.println("HI " + name);
     }
-
 }
+
+
