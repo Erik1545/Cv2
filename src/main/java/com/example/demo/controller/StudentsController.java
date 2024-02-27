@@ -25,6 +25,7 @@ public class StudentsController {
     }
 
 
-
-}
+    public void getAll(HashMap<Integer, Student> studentMap) {
     }
+}
+
