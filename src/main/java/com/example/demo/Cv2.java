@@ -25,7 +25,7 @@ public class Cv2 {
 	StudentController studentController = new StudentController();
 	StudentsController studentsController = new StudentsController();
 
-	studentController.getById(studentMap, 2);
+	studentController.getById(2);
 	studentsController.getAll(studentMap);
 
 		SpringApplication.run(Cv2.class, args);
@@ -33,8 +33,7 @@ public class Cv2 {
 		}
 
 
-
-	}
+}
 
 
 //cv3
